@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/montserrat.woff2) format(woff2),
+         url(/fonts/montserrat.woff) format(woff);
+    
+
+    font-family: "Playfair";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/playfair.woff2) format(woff2),
+         url(/fonts/playfair.woff) format(woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    
+}
