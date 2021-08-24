@@ -2,20 +2,202 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/montserrat.woff2) format(woff2),
-         url(/fonts/montserrat.woff) format(woff);
-    
+    src: url("/fonts/montserrat.woff2") format("woff2"),
+         url("/fonts/montserrat.woff") format("woff");
 
-    font-family: "Playfair";
+
+    font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/playfair.woff2) format(woff2),
-         url(/fonts/playfair.woff) format(woff);
+    src: url("/fonts/playfair.woff2") format("woff2"),
+         url("/fonts/playfair.woff") format("woff");
 }
 
 body {
     margin: 0;
     padding: 0;
 
-    
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #AE7C78;
+
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Playfair Display", Arial, serif;
+    font-size: 44px;
+    line-height: 59px;
+    font-weight: 400;
+}
+
+h1 span {
+    font-style: italic;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dd {
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+h2,
+h3 {
+    font-family: "Playfair Display", Arial, serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.button {
+    color: white;
+    background: #D89999;
+    border-radius: 2em;
+}
+
+.button-order {
+    padding: 30px 105px 30px 105px;
+}
+
+.button-catalog {
+    padding: 30px 70px 30px 70px;
+}
+
+.slider-item-one div,
+.about div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.slider-item-one h3,
+.price {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/*.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+*/
+
+.site-navigation,
+.footer-site-navigation,
+.four-steps,
+.news-socials,
+.footer-socials {
+    list-style: none;
+}
+
+.site-navigation a,
+.footer-site-navigation a,
+.contacts a {
+    color: #AE7C78;
+}
+
+.catalog-section a {
+    font-family: "Playfair Display", Arial, serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.catalog-section {
+    background-color: #AE7C78;
+
+    width: 388px;
+    height: 442px;
+}
+
+.catalog-section p {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.catalog-section-one {
+    background: url(img/wedding-bouquet.jpg) no-repeat;
+}
+
+.catalog-section-two {
+    background: url(img/pion-bouquet.jpg) no-repeat;
+}
+
+.catalog-section-three {
+    background: url(img/choice-bouquet.jpg) no-repeat;
+}
+
+.catalog-photo {
+    background: rgba(174, 124, 120, 0.6);
+
+    width: 388px;
+    height: 442px;
+
+    border-radius: 3%;
+}
+
+.catalog-photo h3 {
+    padding-top: 183px;
+}
+
+.discount {
+    background-color: #AE7C78;
+    color: white;
+}
+
+.steps h3 {
+    font-size: 16px;
+}
+
+.contacts {
+    background: url(img/map.jpg) no-repeat;
+    padding: 52px 832px 72px 222px;
+
+}
+
+.contacts div {
+    background-color: white;
+    width: 386px;
+    height: 520px;
+    border-radius: 3%;
+}
+
+.contacts h3 {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.contacts p {
+    font-weight: 500;
+}
+
+.main-footer {
+    background-color: #AE7C78;
+
+}
+
+.main-footer a {
+    color: white;
 }
