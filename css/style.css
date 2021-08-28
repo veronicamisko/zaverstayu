@@ -21,37 +21,13 @@ body {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
-    color: #AE7C78;
 
-    background-color: white;
+    color: #AE7C78;
+    background: white;
 }
 
 a {
     text-decoration: none;
-}
-
-h1 {
-    font-family: "Playfair Display", Arial, serif;
-    font-size: 44px;
-    line-height: 59px;
-    font-weight: 400;
-}
-
-h1 span {
-    font-style: italic;
-}
-
-.about p {
-    font-size: 24px;
-}
-
-dt {
-    font-weight: 500;
-}
-
-dd {
-    margin-left: 0;
-    margin-top: 8px;
 }
 
 h2,
@@ -60,6 +36,30 @@ h3 {
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
+}
+
+.about-heading {
+    font-family: "Playfair Display", Arial, serif;
+    font-size: 44px;
+    line-height: 59px;
+    font-weight: 400;
+}
+
+.about-heading span {
+    font-style: italic;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+.benefit dt {
+    font-weight: 500;
+}
+
+.benefit dd {
+    margin-left: 0;
+    margin-top: 8px;
 }
 
 .button {
@@ -118,15 +118,16 @@ h3 {
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
-    color: white;
     text-align: center;
+
+    color: white;
 }
 
 .catalog-section {
-    background-color: #AE7C78;
-
     width: 388px;
     height: 442px;
+
+    background-color: #AE7C78;
 }
 
 .catalog-section p {
@@ -149,11 +150,10 @@ h3 {
 }
 
 .catalog-photo {
-    background: rgba(174, 124, 120, 0.6);
-
     width: 388px;
     height: 442px;
 
+    background: rgba(124, 83, 80, 0.6);
     border-radius: 3%;
 }
 
@@ -162,7 +162,7 @@ h3 {
 }
 
 .discount {
-    background-color: #AE7C78;
+    background: #AE7C78;
     color: white;
 }
 
@@ -171,22 +171,22 @@ h3 {
 }
 
 .contacts {
-    background: url(img/map.jpg) no-repeat;
     padding: 52px 832px 72px 222px;
 
+    background: url(img/map.jpg) no-repeat;
 }
 
 .contacts div {
-    background-color: white;
     width: 386px;
     height: 520px;
+
+    background: white;
     border-radius: 3%;
 }
 
 .contacts h3 {
     font-size: 16px;
     font-weight: 400;
-
 }
 
 .contacts p {
@@ -194,7 +194,7 @@ h3 {
 }
 
 .main-footer {
-    background-color: #AE7C78;
+    background: #AE7C78;
 
 }
 
