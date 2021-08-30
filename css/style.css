@@ -13,6 +13,7 @@
          url("/fonts/playfair.woff") format("woff");
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ body {
     font-weight: 400;
 
     color: #AE7C78;
-    background: white;
+    background-color: white;
 }
 
 a {
@@ -36,6 +37,14 @@ h3 {
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 .about-heading {
@@ -61,6 +70,7 @@ h3 {
     margin-left: 0;
     margin-top: 8px;
 }
+
 
 .button {
     color: white;
@@ -90,15 +100,6 @@ h3 {
     font-weight: 500;
 }
 
-/*.visually-hidden {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-}
-*/
-
 .site-navigation,
 .footer-site-navigation,
 .four-steps,
@@ -118,16 +119,17 @@ h3 {
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
+    color: white;
     text-align: center;
 
-    color: white;
+    
 }
 
 .catalog-section {
     width: 388px;
     height: 442px;
 
-    background-color: #AE7C78;
+    background: #AE7C78; 
 }
 
 .catalog-section p {
@@ -138,22 +140,22 @@ h3 {
 }
 
 .catalog-section-one {
-    background: url(img/wedding-bouquet.jpg) no-repeat;
+    background: url(/img/wedding-bouquet.jpg) no-repeat;
 }
 
 .catalog-section-two {
-    background: url(img/pion-bouquet.jpg) no-repeat;
+    background: url(/img/pion-bouquet.jpg) no-repeat;
 }
 
 .catalog-section-three {
-    background: url(img/choice-bouquet.jpg) no-repeat;
+    background: url(/img/choice-bouquet.jpg) no-repeat;
 }
 
 .catalog-photo {
     width: 388px;
     height: 442px;
 
-    background: rgba(124, 83, 80, 0.6);
+    background: rgba(174, 124, 120, 0.6);
     border-radius: 3%;
 }
 
@@ -167,13 +169,15 @@ h3 {
 }
 
 .steps h3 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
     font-size: 16px;
 }
 
 .contacts {
     padding: 52px 832px 72px 222px;
 
-    background: url(img/map.jpg) no-repeat;
+    background: url(/img/map.jpg) no-repeat;
 }
 
 .contacts div {
