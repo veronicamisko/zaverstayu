@@ -3,14 +3,14 @@
     font-style: normal;
     font-weight: 400;
     src: url("/fonts/montserrat.woff2") format("woff2"),
-         url("/fonts/montserrat.woff") format("woff");
+        url("/fonts/montserrat.woff") format("woff");
 
 
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
     src: url("/fonts/playfair.woff2") format("woff2"),
-         url("/fonts/playfair.woff") format("woff");
+        url("/fonts/playfair.woff") format("woff");
 }
 
 
@@ -50,15 +50,14 @@ h3 {
 .container {
     width: 1440px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 24px;
 }
 
 .main-header {
-    margin-bottom: 80px;
     box-sizing: border-box;
 
-    border-top:1px solid #AE7C78;
-    border-bottom:1px solid #AE7C78;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
 }
 
 .wrapper {
@@ -92,47 +91,119 @@ h3 {
     margin-left: 139px;
 }
 
+.about {
+    margin: 0;
+    margin-left: 120px;
+    padding: 0;
+    display: flex;
+}
+
 .about-heading {
     font-family: "Playfair Display", Arial, serif;
     font-size: 44px;
     line-height: 59px;
     font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .about-heading span {
     font-style: italic;
 }
 
+.about h1 {
+    margin-bottom: 24px;
+}
+
 .about p {
     font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 95px;
+    margin-right: 10px;
 }
 
-.benefit dt {
-    font-weight: 500;
+.about div {
+    width: 408px;
+    margin-top: 29px;
+    margin-bottom: 40px;
+
 }
 
-.benefit dd {
-    margin-left: 0;
-    margin-top: 8px;
+.about img:first-of-type {
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 114px;
 }
 
+.about img:last-of-type {
+    margin-top: 56px;
+}
 
 .button {
     color: white;
     background: #D89999;
-    border-radius: 2em;
-}
-
-.button-order {
-    padding: 30px 105px 30px 105px;
+    border-radius: 3em;
 }
 
 .button-catalog {
     padding: 30px 70px 30px 70px;
+    margin-bottom: 118px;
+
 }
 
-.slider-item-one div,
-.about div {
+.button-order {
+    padding: 30px 105px 30px 105px;
+    
+}
+
+.main-benefits {
+    margin: 0;
+    margin-left: 123px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.benefit-list {
+    display: flex;
+}
+
+.benefit {
+    width: 360px;
+}
+
+.benefit dt {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.benefit dd {
+    margin-left: 0;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.benefit-one {
+    background: url(/img/delivery.svg) top left no-repeat;
+    padding-left: 100px;
+    margin-right: -46px;
+    width: 380px;
+}
+
+.benefit-two {
+    background: url(/img/bouquet.svg) top left no-repeat;
+    padding-left: 72px;
+    margin-right: -32px;
+}
+
+.benefit-three {
+    background: url(/img/photo.svg) top left no-repeat;
+    padding-left: 80px;
+    margin-right: px;
+}
+
+
+.slider-item-one div {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -167,14 +238,14 @@ h3 {
     color: white;
     text-align: center;
 
-    
+
 }
 
 .catalog-section {
     width: 388px;
     height: 442px;
 
-    background: #AE7C78; 
+    background: #AE7C78;
 }
 
 .catalog-section p {
