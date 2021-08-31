@@ -54,9 +54,7 @@ h3 {
 }
 
 .main-header {
-    margin: 0;
     margin-bottom: 80px;
-    padding: 0;
     box-sizing: border-box;
 
     border-top:1px solid #AE7C78;
@@ -76,29 +74,22 @@ h3 {
     position: absolute;
     left: 50%;
     top: 55%;
-    transform: translate(-50%, -50%);
+    transform: translate(-48%, -48%);
 }
 
 .site-navigation {
     display: flex;
-    padding: 22px 0;
+    padding: 6px 0;
     justify-content: space-between;
 }
 
 .site-navigation li:first-child {
     margin-right: 17px;
-}
-
-.site-navigation li:last-child {
-    margin-right: 0;
-}
-
-.site-navigation li:nth-child(3) {
-    margin-right: 0;
+    padding-right: 9px;
 }
 
 .site-navigation li:nth-child(4) {
-    margin-left: 135px;
+    margin-left: 139px;
 }
 
 .about-heading {
