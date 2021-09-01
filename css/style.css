@@ -438,6 +438,74 @@ h3 {
     margin-right: 122px;
 }
 
+.news {
+    display:grid;
+    grid-template-columns: 488px auto auto;
+    grid-template-rows: auto auto;
+    margin-top: -64px;
+    margin-left: 140px;
+    padding-right: 96px;
+}
+
+.news div {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 370px;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+
+.news p {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 42px;
+}
+
+.news h2 {
+    letter-spacing: 00.02em;
+}
+
+.news-bouquet-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.news-bouquet-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: flex-end;
+}
+
+.news-bouquet-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.news-socials {
+    display: flex;
+    margin-top: 39px;
+}
+
+.news-socials li:first-child {
+    margin-left: -39px;
+    margin-right: 20px;
+}
+
+.news-socials li:nth-child(2) {
+    margin-right: 18px;
+}
+
 .contacts {
     padding: 52px 832px 72px 222px;
 
