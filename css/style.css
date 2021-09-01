@@ -506,13 +506,42 @@ h3 {
     margin-right: 18px;
 }
 
+.reviews {
+    border: 1px solid #AE7C78;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.reviews-list {
+    display: grid;
+    grid-template-columns: 370px 370px 380px;
+    text-align: center;
+    column-gap: 34px;
+    margin-top: -20px;
+    padding-bottom: 47px;
+    padding-left: 9px;
+}
+
+.reviews h2 {
+    text-align: center;
+    padding-top: 9px;
+    letter-spacing: 0.02em;
+}
+
+.reviews cite {
+    font-style: normal;
+}
+
 .contacts {
-    padding: 52px 832px 72px 222px;
+    margin-top: 80px;;
+    padding: 21px 832px 72px 222px;
 
     background: url(/img/map.jpg) no-repeat;
 }
 
-.contacts div {
+
+.contacts-container {
     width: 386px;
     height: 520px;
 
@@ -520,13 +549,29 @@ h3 {
     border-radius: 3%;
 }
 
+.contacts-container div {
+    padding-left: 36px;
+    margin-top: -5px;
+}
+
+.contacts h2 {
+    padding-top: 41px;
+    padding-left: 36px;
+    
+}
+
 .contacts h3 {
-    font-size: 16px;
     font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .contacts p {
     font-weight: 500;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 18px;
 }
 
 .main-footer {
