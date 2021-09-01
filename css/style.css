@@ -576,9 +576,51 @@ h3 {
 
 .main-footer {
     background: #AE7C78;
-
+    display: flex;
+    justify-content: space-around;
+    padding: 21px;
 }
 
-.main-footer a {
+
+
+.main-footer-logo {
+    display: block;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.footer-site-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -86px;
+    margin-top: 11px;
+    margin-right: -26px;
+    margin-bottom: 26px;
+}
+
+.footer-site-navigation li {
+    padding-left: 22px;
+    padding-right: 28px;
+}
+
+.footer-site-navigation a {
     color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: 11px;
+}
+
+.footer-socials li:first-child {
+    margin-left: -39px;
+    margin-right: 20px;
+}
+
+.footer-socials li:nth-child(2) {
+    margin-right: 18px;
 }
