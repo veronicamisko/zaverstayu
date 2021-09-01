@@ -350,6 +350,7 @@ h3 {
 
 .catalog-photo h3 {
     padding-top: 183px;
+    
     letter-spacing: 0.02em;
     margin-bottom: -5px;
 }
@@ -357,12 +358,84 @@ h3 {
 .discount {
     background: #AE7C78;
     color: white;
+    margin-left: 120px;
+    margin-right: 120px;;
+    display: flex;
+}
+
+.discount h2 {
+    font-size: 44px;
+    line-height: 59px;
+    padding-left: 102px;
+    padding-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.discount p {
+    margin-top: -9px;
+    padding-left: 102px;
+    padding-right: 95px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.four-steps-ideal {
+    margin: 0;
+    margin-top: 82px;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.four-steps-ideal h2 {
+    letter-spacing: 0.02em;
+    margin-bottom: 37px;
+}
+
+.four-steps {
+    display: flex;
+    justify-content: space-between;
 }
 
 .steps h3 {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
+    margin-top: -15px;
+}
+
+.steps p {
+    margin-top: -23px;
+}
+
+.four-steps li {
+    height: 148px;
+    padding-top: 62px;
+    text-align: center;
+    flex-basis: 280px;
+}
+
+.step-one {
+    background: url(/img/order.svg) top center no-repeat;
+    margin-left: 84px;
+}
+
+.step-two {
+    background: url(/img/details.svg) top center no-repeat;
+    margin-left: -1px;
+}
+
+.step-three {
+    background: url(/img/payment.svg) top center no-repeat;
+    margin-right: -2px;
+} 
+
+.step-four {
+    background: url(/img/delivery.svg) top center no-repeat;
+    margin-right: 122px;
 }
 
 .contacts {
