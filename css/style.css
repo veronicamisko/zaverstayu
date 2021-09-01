@@ -111,7 +111,7 @@ h3 {
 }
 
 .about h1 {
-    margin-bottom: 24px;
+    margin-bottom: 26px;
 }
 
 .about p {
@@ -123,7 +123,7 @@ h3 {
 
 .about div {
     width: 408px;
-    margin-top: 29px;
+    margin-top: 27px;
     margin-bottom: 40px;
 
 }
@@ -160,7 +160,7 @@ h3 {
     margin-left: 123px;
     padding: 0;
     box-sizing: border-box;
-    margin-top: 48px;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 
@@ -218,7 +218,7 @@ h3 {
 .slider-item {
     margin: 0;
     margin-left: 324px;
-    padding-top: 6px;
+    padding-top: 9px;
     display: flex;
 }
 
@@ -242,6 +242,31 @@ h3 {
     font-weight: 500;
 }
 
+.slider-item-photo {
+    margin-top: -3px;
+}
+.button-controls {
+    margin-left: 662px;
+    margin-top: 6px;
+    margin-bottom: 65px;
+}
+
+.button-back {
+    background: url(/img/arrow-back.svg) 50% 50% no-repeat;
+    color: #AE7C78;
+    border: none;
+    width: 50px;
+    height: 25px;
+    margin-right: 14px;
+}
+
+.button-forward {
+    background: url(/img/arrow-forward.svg) 50% 50% no-repeat;
+    color: #AE7C78;
+    border: none;
+    width: 50px;
+    height: 25px;
+}
 
 .site-navigation,
 .footer-site-navigation,
