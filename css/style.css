@@ -39,6 +39,20 @@ h3 {
     font-weight: 700;
 }
 
+.site-navigation,
+.footer-site-navigation,
+.four-steps,
+.news-socials,
+.footer-socials {
+    list-style: none;
+}
+
+.site-navigation a,
+.footer-site-navigation a,
+.contacts a {
+    color: #AE7C78;
+}
+
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -268,18 +282,12 @@ h3 {
     height: 25px;
 }
 
-.site-navigation,
-.footer-site-navigation,
-.four-steps,
-.news-socials,
-.footer-socials {
-    list-style: none;
+.catalog {
+    margin-bottom: 80px;
 }
-
-.site-navigation a,
-.footer-site-navigation a,
-.contacts a {
-    color: #AE7C78;
+.catalog-list {
+    display: flex;
+    justify-content: space-around;
 }
 
 .catalog-section a {
@@ -307,16 +315,27 @@ h3 {
     font-weight: 400;
 }
 
+
+
 .catalog-section-one {
     background: url(/img/wedding-bouquet.jpg) no-repeat;
+    margin: 0;
+    margin-left: 109px;
+    
+
 }
 
 .catalog-section-two {
     background: url(/img/pion-bouquet.jpg) no-repeat;
+    margin: 0;
+    margin-right: 102px;
 }
 
 .catalog-section-three {
     background: url(/img/choice-bouquet.jpg) no-repeat;
+    margin: 0;
+    margin-left: -107px;
+    margin-right: 109px;
 }
 
 .catalog-photo {
@@ -325,10 +344,14 @@ h3 {
 
     background: rgba(174, 124, 120, 0.6);
     border-radius: 3%;
-}
+    padding: 0;
+    margin-top: -36px;
+} 
 
 .catalog-photo h3 {
     padding-top: 183px;
+    letter-spacing: 0.02em;
+    margin-bottom: -5px;
 }
 
 .discount {
