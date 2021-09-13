@@ -191,20 +191,20 @@ h3 {
     margin-right: -46px;
     width: 380px;
 
-    background: url(/img/delivery.svg) top left no-repeat;
+    background: url(img/delivery.svg) top left no-repeat;
 }
 
 .benefit-two {
     padding-left: 72px;
     margin-right: -32px;
 
-    background: url(/img/bouquet.svg) top left no-repeat;
+    background: url(img/bouquet.svg) top left no-repeat;
 }
 
 .benefit-three {
     padding-left: 80px;
 
-    background: url(/img/photo.svg) top left no-repeat;
+    background: url(img/photo.svg) top left no-repeat;
 }
 
 
@@ -264,7 +264,7 @@ h3 {
     height: 25px;
     margin-right: 14px;
 
-    background: url(/img/arrow-back.svg) 50% 50% no-repeat;
+    background: url(img/arrow-back.svg) 50% 50% no-repeat;
     color: #AE7C78;
     border: none;
 }
@@ -273,7 +273,7 @@ h3 {
     width: 50px;
     height: 25px;
 
-    background: url(/img/arrow-forward.svg) 50% 50% no-repeat;
+    background: url(img/arrow-forward.svg) 50% 50% no-repeat;
     color: #AE7C78;
     border: none;
 }
@@ -316,14 +316,14 @@ h3 {
     margin: 0;
     margin-left: 109px;
 
-    background: url(/img/wedding-bouquet.jpg) no-repeat;
+    background: url(img/wedding-bouquet.jpg) no-repeat;
 }
 
 .catalog-section-two {
     margin: 0;
     margin-right: 102px;
 
-    background: url(/img/pion-bouquet.jpg) no-repeat;
+    background: url(img/pion-bouquet.jpg) no-repeat;
 }
 
 .catalog-section-three {
@@ -331,7 +331,7 @@ h3 {
     margin-left: -107px;
     margin-right: 109px;
 
-    background: url(/img/choice-bouquet.jpg) no-repeat;
+    background: url(img/choice-bouquet.jpg) no-repeat;
 }
 
 .catalog-photo {
@@ -427,25 +427,25 @@ h3 {
 .step-one {
     margin-left: 84px;
 
-    background: url(/img/order.svg) top center no-repeat;
+    background: url(img/order.svg) top center no-repeat;
 }
 
 .step-two {
     margin-left: -1px;
 
-    background: url(/img/details.svg) top center no-repeat;
+    background: url(img/details.svg) top center no-repeat;
 }
 
 .step-three {
     margin-right: -2px;
 
-    background: url(/img/payment.svg) top center no-repeat;
+    background: url(img/payment.svg) top center no-repeat;
 }
 
 .step-four {
     margin-right: 122px;
 
-    background: url(/img/delivery.svg) top center no-repeat;
+    background: url(img/delivery.svg) top center no-repeat;
 }
 
 
@@ -557,7 +557,7 @@ h3 {
     margin-top: 80px;
     padding: 21px 832px 72px 222px;
 
-    background: url(/img/map.jpg) no-repeat;
+    background: url(img/map.jpg) no-repeat;
 }
 
 .contacts-container {
