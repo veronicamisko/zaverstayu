@@ -191,20 +191,20 @@ h3 {
     margin-right: -46px;
     width: 380px;
 
-    background: url(img/delivery.svg) top left no-repeat;
+    background: url(../img/delivery.svg) top left no-repeat;
 }
 
 .benefit-two {
     padding-left: 72px;
     margin-right: -32px;
 
-    background: url(img/bouquet.svg) top left no-repeat;
+    background: url(../img/bouquet.svg) top left no-repeat;
 }
 
 .benefit-three {
     padding-left: 80px;
 
-    background: url(img/photo.svg) top left no-repeat;
+    background: url(../img/photo.svg) top left no-repeat;
 }
 
 
